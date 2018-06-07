@@ -52,6 +52,6 @@
 Link do arquivo: [update.sh](shell_scripts/update.sh "Link update.sh")
 
 ### 3° Execute o script para instalar os programas necessários, que foi disponibilizado:
-    ./programas.sh
+    ./software.sh
     
 Link do arquivo: [software.sh](shell_scripts/software.sh "Link software.sh")
