@@ -32,3 +32,10 @@
     git remote add origin https://gitlab.com/MrPivato/raspGPIO.git
     git push -u origin --all
     git push -u origin --tags
+
+### Resultado:
+
+![alt text](imgs/screen1.png "asdasd")
+
+## No momento, apenas execute:
+    git clone https://gitlab.com/MrPivato/raspGPIO.git
