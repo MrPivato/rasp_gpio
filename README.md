@@ -35,7 +35,7 @@
 
 ### Resultado:
 
-![alt text](imgs/screen1.png "asdasd")
+![alt text](imgs/screen1.png "Screenshot")
 
 ### No momento, apenas execute:
     git clone https://gitlab.com/MrPivato/raspGPIO.git
@@ -55,3 +55,8 @@ Link do arquivo: [update.sh](shell_scripts/update.sh "Link update.sh")
     ./software.sh
     
 Link do arquivo: [software.sh](shell_scripts/software.sh "Link software.sh")
+
+## Passo 3: mão na massa.
+
+### 1° Entendendo a GPIO
+
