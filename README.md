@@ -58,5 +58,17 @@ Link do arquivo: [software.sh](shell_scripts/software.sh "Link software.sh")
 
 ## Passo 3: mão na massa.
 
-### 1° Entendendo a GPIO
+### 1° Entendendo a GPIO.
+#### Execute o seguinte comando em seu terminal:
+    pinout
+
+### Ele deve retornar algo parecido com isto:
+
+![alt text](imgs/pinout.png "pinout terminal")
+
+Agora você sabe como estão dispostos os pinos! 
+
+### 2° Criando um circuito básico.
+#### Construa o seguinte esquema:
+
 
