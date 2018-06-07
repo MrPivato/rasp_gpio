@@ -37,5 +37,16 @@
 
 ![alt text](imgs/screen1.png "asdasd")
 
-## No momento, apenas execute:
+### No momento, apenas execute:
     git clone https://gitlab.com/MrPivato/raspGPIO.git
+    
+## Passo 2: instalando o software necessário.
+
+### 1° De permissão para que os scripts sejam executáveis:
+    cd raspGPIO/shell_scripts
+    chmod +x *.sh
+
+### 2° Execute o script de update que foi disponibilizado:
+    ./update.sh
+    
+Link do arquivo: [update.sh](shell_scripts/update.sh "Link")
