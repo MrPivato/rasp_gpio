@@ -49,4 +49,9 @@
 ### 2° Execute o script de update que foi disponibilizado:
     ./update.sh
     
-Link do arquivo: [update.sh](shell_scripts/update.sh "Link")
+Link do arquivo: [update.sh](shell_scripts/update.sh "Link update.sh")
+
+### 3° Execute o script para instalar os programas necessários, que foi disponibilizado:
+    ./programas.sh
+    
+Link do arquivo: [programas.sh](shell_scripts/programas.sh "Link programas")
