@@ -73,3 +73,7 @@ Agora você sabe como estão dispostos os pinos!
 
 ![alt text](imgs/hc1.png "HC-SR04 montagem")
 
+### Logo após, execute o arquivo python:
+    cd ../python_code
+    python hcsr04.py
+    
