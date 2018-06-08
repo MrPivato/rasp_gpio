@@ -80,3 +80,10 @@ Agora você sabe como estão dispostos os pinos!
 ### Agora voce pode medir a distância com o seu sensor!
 
 ![alt text](imgs/screen2.png "Resultado do script")
+
+### E se o código fosse feito no Arduino?
+##### As ligações físicas continuariam basicamente as mesmas, porém não teriamos a flexibilidade de usarmos a linguagem de programação que bem quisermos.
+
+Arquivo em python [hcsr04.py](python_code/hcsr04.py "Link para o arquivo python")
+    : VS : 
+Arquivo em wiring [hcsr04.ino](arduino_code/hcsr04.ino "Link para o arquivo em wiring")
