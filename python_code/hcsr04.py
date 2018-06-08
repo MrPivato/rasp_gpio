@@ -17,32 +17,33 @@ def close(signal, frame):
 
 signal.signal(signal.SIGINT, close)
 
-# seta input e output
+# seta os pinos de input e output
 GPIO.setup(pinTrig, GPIO.OUT)
 GPIO.setup(pinEcho, GPIO.IN)
 
 while True:
 	
-        # ping
+        # <ping>
 	GPIO.output(pinTrig, True)
-        #
 	time.sleep(0.75)
-        #
         GPIO.output(pinTrig, False)
 
 	startTime = time.time()
 	stopTime = time.time()
+        # </ping>
 
-        # pong
+        # <pong>
 	while 0 == GPIO.input(pinEcho):
 		startTime = time.time()
 
 	while 1 == GPIO.input(pinEcho):
 		stopTime = time.time()
+        # </pong>
 
         # calcula distancia
-	TimeElapsed = stopTime - startTime
+	TimeElapsed = stopTime - startTime # T2 - t1
 	distance = (TimeElapsed * 34300) / 2
 
+        # escreve a distancia
 	print ("Dist: %.1f cm" % distance)
 time.sleep(0.75)
