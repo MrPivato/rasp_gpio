@@ -77,7 +77,7 @@ Agora você sabe como estão dispostos os pinos!
     cd ../python_code
     python hcsr04.py
     
-### Agora voce pode medir a distância com o seu sensor!
+### Agora você pode medir a distância com o seu sensor!
 
 ![alt text](imgs/screen2.png "Resultado do script")
 
