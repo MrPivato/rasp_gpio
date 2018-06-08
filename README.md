@@ -71,4 +71,5 @@ Agora você sabe como estão dispostos os pinos!
 ### 2° Criando um circuito básico.
 #### Construa o seguinte esquema:
 
+![alt text](imgs/hc1.png "HC-SR04 montagem")
 
